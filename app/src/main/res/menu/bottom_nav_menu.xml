@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/flights"
+        android:title="Flights"
+        android:icon="@drawable/ic_baseline_flight_24" />
+
+    <item
+        android:id="@+id/activities"
+        android:title="Activities"
+        android:icon="@drawable/ic_baseline_local_activity_24" />
+
+    <item
+        android:id="@+id/hotels"
+        android:title="Hotels"
+        android:icon="@drawable/ic_baseline_hotel_24" />
+
+    <item
+        android:id="@+id/vacations"
+        android:title="Vacations"
+        android:icon="@drawable/ic_baseline_beach_access_24" />
+
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+<!--    android:onClick="displayInfo"-->
+<!--    yourapp:actionViewClass="android.widget.Spinner"-->
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@android:drawable/ic_menu_info_details"
+        yourapp:showAsAction="always"
+        android:orderInCategory="0"/>
+</menu>

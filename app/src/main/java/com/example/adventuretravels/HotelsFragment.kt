@@ -33,8 +33,8 @@ class HotelsFragment : Fragment() {
         val job = SupervisorJob()
         val scope = CoroutineScope(Dispatchers.Main + job)
         val amadeus = Amadeus.Builder(requireContext())
-            .setClientId("GFpKF7Zv9NQ2OCHTHz5J54tUnGGahnwd") // API Key
-            .setClientSecret("Icx4U9PWDU8oFk6R") // API Secret
+            .setClientId("API KEY") // API Key
+            .setClientSecret("API SECRET") // API Secret
             .build()
 
         locationInput = view.findViewById(R.id.edit_text_location_hotel)

@@ -30,8 +30,8 @@ class FlightsFragment : Fragment(), FlightOfferSearchRecyclerViewAdapter.ItemCli
         val view = inflater.inflate(R.layout.fragment_flights, container, false)
 
         val amadeus = Amadeus.Builder(requireContext())
-            .setClientId("GFpKF7Zv9NQ2OCHTHz5J54tUnGGahnwd") // API Key
-            .setClientSecret("Icx4U9PWDU8oFk6R") // API Secret
+            .setClientId("API KEY") // API Key
+            .setClientSecret("API SECRET") // API Secret
             .build()
 
         val sourceInput: EditText = view.findViewById(R.id.edit_text_source)
